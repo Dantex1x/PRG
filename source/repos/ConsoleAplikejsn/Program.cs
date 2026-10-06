@@ -197,6 +197,22 @@ class Program
 
   Console.WriteLine("Obsah kruhu je: " + obsah);
 
+
+     int skore = 85;
+ 
+if (skore >= 90)
+{
+    Console.WriteLine("Skvělý výkon! Máš 1*.");
+}
+else if (skore >= 50)
+{
+    Console.WriteLine("Prošel jsi, ale mohlo to být lepší.");
+}
+else
+{
+    Console.WriteLine("Bohužel, zkoušku opakuješ.");
+}
+     
     }
 
 }
